@@ -1,0 +1,12 @@
+npm create vite@latest
+npm install
+npm run dev
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm i phosphor-react
+npm i dayjs
+npm install @radix-ui/react-dialog
+npm install @radix-ui/react-popover
+npm i clsx
+npm install @radix-ui/react-checkbox
+npm i axios

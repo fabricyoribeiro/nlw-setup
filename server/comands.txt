@@ -1,0 +1,24 @@
+npm init -y
+npm i fastify
+npm i typescript -D
+npx tsc --init (cria o tsconfig)
+npm i tsx -D (para rodar o codigo ts)
+
+npm i -D prisma
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite
+npm prisma migrate dev
+npx prisma studio
+
+npm i @fastify/cors
+npx prisma migrate dev (apos criar as tabelas)
+
+adicionar isso no settings do vs code para formatar
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+npm i --save-dev @types/node 
+npx prisma db seed
+npm i zod
+npm i dayjs
